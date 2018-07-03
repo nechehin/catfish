@@ -20,6 +20,10 @@ Add code before close body tag:
 <!-- Load simple-catfish script from CDN -->
 <script async='async' src="https://cdn.jsdelivr.net/gh/nechehin/simple-catfish@latest/catfish.min.js"></script>
 ```
+
+Required methods:
+- link({String} link, {Boolean} newTab = false) - set click link
+- addImage({String} source, {Number} width, {Number} height) - Add image source and size
    
 ## Advanced configuration
    

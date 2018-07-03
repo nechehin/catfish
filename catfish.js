@@ -208,12 +208,12 @@ function simpleCatfish() {
          * Set click link
          *
          * @param {String} value
-         * @param {Boolean} openInNewTab
+         * @param {Boolean} newTab
          * @returns {this}
          */
-        link: function(value, openInNewTab) {
+        link: function(value, newTab) {
             link = value;
-            openInNewTab = openInNewTab || false;
+            openInNewTab = newTab || false;
             return this;
         },
 

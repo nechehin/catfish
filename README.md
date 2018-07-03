@@ -22,8 +22,8 @@ Add code before close body tag:
 ```
 
 Required methods:
-- link({String} link, {Boolean} newTab = false) - set click link
-- addImage({String} source, {Number} width, {Number} height) - Add image source and size
+- link( {String} link, {Boolean} newTab = false ) - set click link
+- addImage( {String} source, {Number} width, {Number} height ) - Add image source and size
    
 ## Advanced configuration
    
